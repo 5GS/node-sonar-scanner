@@ -1,0 +1,22 @@
+## node-sonar-scanner
+
+#### Description
+
+SonarQube Scanner in NodeJS environment for scanning typescript and javascript projects.
+
+#### Run
+
+most simple way of running the container
+
+    docker run --rm -v /<projectDir>:/data 5gsystems/node-sonar-scanner sonar-scanner
+
+more advanced way (including custom properties and java tls trust store override)
+
+    docker run --rm -v /var/lib/drone/cacerts:/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/cacerts \
+      -v /<configDir>/sonar-scanner.properties:/sonar-scanner-3.0.3.778/conf/sonar-scanner.properties \
+      -v /<projectDir>:/data 5gsystems/node-sonar-scanner sonar-scanner -Dsonar.sources=<srcDir> \
+      -Dsonar.projectKey=<projectKey> -Dsonar.exclusions=<filesToExclude>
+
+#### Source
+
+https://github.com/5GS/node-sonar-scanner
