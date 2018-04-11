@@ -1,6 +1,6 @@
 FROM node:alpine
 
-LABEL maintainer "5G Systems"
+LABEL maintainer "NoEnvs"
 LABEL version "1.0.0"
 LABEL description "SonarQube Scanner in NodeJS environment for scanning typescript and javascript projects"
 
