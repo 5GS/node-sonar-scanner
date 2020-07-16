@@ -1,10 +1,10 @@
 FROM noenv/node
 
 LABEL maintainer "NoEnv"
-LABEL version "1.4.0"
+LABEL version "1.5.0"
 LABEL description "SonarQube Scanner in NodeJS environment for scanning typescript and javascript projects"
 
-ENV SONAR_SCANNER_VERSION 4.3.0.2102
+ENV SONAR_SCANNER_VERSION 4.4.0.2170
 ENV JAVA_HOME /usr/lib/jvm/default-jvm
 ENV PATH $PATH:/sonar-scanner/bin
 
