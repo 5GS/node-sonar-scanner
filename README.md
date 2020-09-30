@@ -1,3 +1,5 @@
+[![Docker Pulls](https://badgen.net/docker/pulls/noenv/node-sonar-scanner)](https://hub.docker.com/r/noenv/node-sonar-scanner)
+
 ## node-sonar-scanner
 
 #### Description
