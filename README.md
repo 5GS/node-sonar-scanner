@@ -2,6 +2,10 @@
 
 ## node-sonar-scanner
 
+#### DEPRECATED
+
+please use: [noenv/docker-sonar-scanner](https://github.com/noenv/docker-sonar-scanner)
+
 #### Description
 
 SonarQube Scanner in NodeJS environment for scanning typescript and javascript projects.
